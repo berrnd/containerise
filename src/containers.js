@@ -77,6 +77,14 @@ async function handle(url, tabId) {
   if (currentTab.incognito || !hostMap) {
     return {};
   }
+  
+  // Excluded containers feature
+  if (typeof preferences.excludedContainers !== 'undefined' && preferences.excludedContainers !== '') {
+    const excludedContainersArr = preferences.excludedContainers.split(',');
+    const currentTabContainer = identities.find(x => x.cookieStoreId === currentTab.cookieStoreId);
+    if (excludedContainersArr.indexOf(currentTabContainer.name) > -1)
+      return {};
+  }
 
   const hostIdentity = identities.find((identity) => identity.cookieStoreId === hostMap.cookieStoreId);
   let targetCookieStoreId;

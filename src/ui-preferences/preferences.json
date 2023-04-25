@@ -12,6 +12,13 @@
     "description": "After a contained tab has been created, the old won't be closed"
   },
   {
+    "type": "string",
+    "name": "excludedContainers",
+    "label": "Excluded Containers",
+    "description": "A comma separated list of excluded containers (names)",
+    "defaultValue": ""
+  },
+  {
     "type": "group",
     "name": "defaultContainer",
     "label": "Default container",
