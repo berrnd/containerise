@@ -2,9 +2,11 @@
 
 Firefox extension to automatically open websites in a container
 
-> This is a fork of [kintesh/containerise](https://github.com/kintesh/containerise) (based on the v3.9.0 release) which adds an option to exclude certain containers.
+> This is a fork of [Containerise](https://github.com/kintesh/containerise) (based on the v3.9.0 release) which adds an option to exclude certain containers.
 > 
 > The (signed) .xpi file for manual installation can be found in the [release assets](https://github.com/berrnd/containerise/releases/latest).
+>
+> If you also use [Temporary Containers](https://github.com/stoically/temporary-containers), here is a compatible fork: <https://github.com/berrnd/temporary-containers>
 >
 > _Dev note: Node v16 is needed for building._
 

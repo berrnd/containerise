@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Containerise @berrnd Fork",
-  "version": "3.9.0.1001",
+  "version": "3.9.0.1002",
   "description": "Firefox extension to automatically open websites in a container",
   "icons": {
     "48": "icons/icon.png",
@@ -23,7 +23,9 @@
     "default_icon": "icons/icon.png"
   },
   "background": {
-    "scripts": ["index.js"]
+    "scripts": [
+      "index.js"
+    ]
   },
   "applications": {
     "gecko": {
