@@ -1,6 +1,7 @@
-# <img src="https://raw.githubusercontent.com/kintesh/containerise/master/static/icons/icon.png" alt="Drawing" width="42" align="top"/> containerise
+# Containerise @berrnd Fork
 
-Firefox extension to automatically open websites in a container
+-----
+-----
 
 > This is a fork of [Containerise](https://github.com/kintesh/containerise) (based on the v3.9.0 release) which adds an option to exclude certain containers.
 > 
@@ -9,6 +10,11 @@ Firefox extension to automatically open websites in a container
 > If you also use [Temporary Containers](https://github.com/stoically/temporary-containers), here is a compatible fork: <https://github.com/berrnd/temporary-containers>
 >
 > _Dev note: Node v16 is needed for building._
+
+-----
+-----
+
+Original README:
 
 |![](https://raw.githubusercontent.com/kintesh/containerise/master/static/screenshots/1.png)  |  ![](https://raw.githubusercontent.com/kintesh/containerise/master/static/screenshots/2.png)  |  ![](https://raw.githubusercontent.com/kintesh/containerise/master/static/screenshots/3.png)  |  ![](https://raw.githubusercontent.com/kintesh/containerise/master/static/screenshots/4.png)|
 | --- | --- | --- | --- |
